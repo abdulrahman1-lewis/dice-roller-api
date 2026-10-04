@@ -1,4 +1,3 @@
-// AI use: This code was generated with Claude (Anthropic), then reviewed and tested by the author.
 const express = require('express')
 const cors = require('cors')
 const dice = require('./lib/dice')
