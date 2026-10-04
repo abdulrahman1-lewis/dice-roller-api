@@ -41,6 +41,5 @@ Azure Web App URL: [ADD YOUR AZURE APP SERVICE URL HERE]
 
 ## Credits
 
-- Code generated with Claude (Anthropic), then reviewed and tested by the author.
 - Express (https://expressjs.com) and the cors package (https://github.com/expressjs/cors).
 - Course examples by Eric Pogue (https://github.com/EricJPogue/cpsc-example-code).
