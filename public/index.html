@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- AI use: Generated with Claude (Anthropic), then reviewed and tested by the author. -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Dice Roller API Tester</title>
+</head>
+<body>
+	<h1>Dice Roller API Tester</h1>
+	<p>
+		This page only tests the RESTful APIs. The Dice Roller application is a separate
+		static website that calls these APIs.
+	</p>
+
+	<p>
+		<button id="wakeButton" type="button">GET /api/wake</button>
+		<button id="dieButton" type="button">GET /api/die</button>
+		<button id="rollButton" type="button">GET /api/roll</button>
+		<button id="corsButton" type="button">GET /api/cors-failure</button>
+	</p>
+
+	<p>
+		<label for="countInput">Number of dice:</label>
+		<input id="countInput" type="text" value="3" size="4" />
+		<button id="diceButton" type="button">GET /api/dice/{count}</button>
+	</p>
+
+	<p>
+		This page is served from the same origin as the API, so every call works here,
+		including /api/cors-failure. A page on a different origin gets a CORS error for that route.
+	</p>
+
+	<h2>Request</h2>
+	<pre id="requestLine">(none yet)</pre>
+
+	<h2>Response</h2>
+	<pre id="output">(none yet)</pre>
+
+	<script src="test.js"></script>
+</body>
+</html>
