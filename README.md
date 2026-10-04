@@ -14,7 +14,6 @@ The Dice Roller website (a separate project, `web-dice-roller`) calls these APIs
 
 | Method and path | Description | CORS |
 | --- | --- | --- |
-| `GET /api/wake` | Wake up call, returns the server status and time | Allowed |
 | `GET /api/die` | Roll one die, returns `{ "value": 1-6 }` | Allowed |
 | `GET /api/dice/:count` | Roll 1 to 20 dice, returns the dice and total | Allowed |
 | `GET /api/roll` | Roll five dice for Yahtzee, returns the dice and total | Allowed |
